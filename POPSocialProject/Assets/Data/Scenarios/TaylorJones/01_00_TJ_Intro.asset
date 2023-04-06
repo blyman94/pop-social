@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 01_00_TJ_Intro
+  m_EditorClassIdentifier: 
+  ScenarioText: 'You approach one of solitary attendees who is holding a glass of
+    red wine. She greets you immediately but unenthusiastically.
+
+
+    "Hi there,
+    my name is Taylor Jones, I am the lead programmer for TeaStain Studios. My friends
+    call me Tay."
+
+
+    You can introduce yourself:'
+  ScenarioImage: {fileID: 0}
+  Options:
+  - OptionText: Nice to meet you, Taylor. (Introduce yourself)
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+  - OptionText: Nice to meet you, Tay. (Introduce yourself)
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+  - OptionText: I am sorry, I have to go.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 1
