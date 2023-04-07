@@ -1444,6 +1444,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
   _currentScenario: {fileID: 11400000, guid: d25a3ad0d2a25f8408b28803e518270f, type: 2}
+  _boolVariablesToReset:
+  - {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
+  - {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
+  - {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
 --- !u!4 &575051629
 Transform:
   m_ObjectHideFlags: 0
@@ -3535,6 +3539,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentScenario: {fileID: 11400000, guid: d25a3ad0d2a25f8408b28803e518270f, type: 2}
+  _FLVisited: {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
+  _TJVisited: {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
+  _YZVisited: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
   _scenarioDisplayImage: {fileID: 475213993}
   _scenarioDisplayText: {fileID: 396129601}
   _scenarioPromptDisplayText: {fileID: 609242006}
@@ -3546,6 +3553,13 @@ MonoBehaviour:
   - {fileID: 1871167354}
   _scenarioImageRevealerAnimator: {fileID: 1035045346}
   _scenarioTextRevealerAnimator: {fileID: 952851638}
+  _triggerOverviewScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
+  _eventOverview_FLTJ: {fileID: 11400000, guid: 0e48bc27a7c9f3842886879c3e3acfd7, type: 2}
+  _eventOverview_FL: {fileID: 11400000, guid: 1d95b3bdbdf91a54288909fdbdcac9d8, type: 2}
+  _eventOverview_FLYZ: {fileID: 11400000, guid: 80fdaf1ad975ceb45a9de513d792c11d, type: 2}
+  _eventOverview_YZ: {fileID: 11400000, guid: d7692d746f0a6734ebecac1fa06972a9, type: 2}
+  _eventOverview_TJYZ: {fileID: 11400000, guid: c189da515d9550545b806030fc6f30a7, type: 2}
+  _eventOverview_TJ: {fileID: 11400000, guid: 3aba7f1d34c88ca4ea7febd6074858cb, type: 2}
 --- !u!1 &1269521704
 GameObject:
   m_ObjectHideFlags: 0

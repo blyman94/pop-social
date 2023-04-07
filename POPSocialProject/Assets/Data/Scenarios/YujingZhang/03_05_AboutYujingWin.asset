@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 03_05_AboutYujingWin
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Yujing looks perturbed, like she doesn''t care to answer the question.
+
+
+    "You
+    know how it is, ya? I don''t really do much outside of design. In my free time
+    I try to play games. I used to work at a bank."'
+  ScenarioPromptText: 'You say:'
+  ScenarioVisualSprite: {fileID: 0}
+  Options:
+  - OptionText: A. Neat!
+    ResultScenario: {fileID: 11400000, guid: 9b7b14da417235f4db17f8591dfad9f4, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

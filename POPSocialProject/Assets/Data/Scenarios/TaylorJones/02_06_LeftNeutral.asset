@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 02_06_LeftNeutral
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Taylor bids you farewell. It''s hard to tell how much she liked
+    you.
+
+'
+  ScenarioPromptText: Well, there are others to talk to.
+  ScenarioVisualSprite: {fileID: 0}
+  Options:
+  - OptionText: A. (Return to Event Overview)
+    ResultScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 02_01_TJ_LeftEarly
+  m_Name: 02_06_LeftWin
   m_EditorClassIdentifier: 
-  ScenarioText: 'Taylor looks annoyed. She bids you farewell, but it is clear you
-    have not made a good impression.
-
+  ScenarioText: 'Taylor bids you an ernest farewell. You have definitely made a friend
+    here.
 
 '
-  ScenarioPromptText: Well, there are others to talk to, or not.
-  ScenarioVisualSprite: {fileID: 21300000, guid: de5cad583703ba04fbbd8707413a2836, type: 3}
+  ScenarioPromptText: Well, there are others to talk to.
+  ScenarioVisualSprite: {fileID: 0}
   Options:
   - OptionText: A. (Return to Event Overview)
-    ResultScenario: {fileID: 11400000, guid: 80fdaf1ad975ceb45a9de513d792c11d, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

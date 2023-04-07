@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 03_02_Intro2Humor
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Yujing laughs. Her discomfort was broken by your wittiness, and
+    she seems relieved.
+
+
+    "What a sense of humor you have, ya? Anyway, I am Yujing,
+    but you probably already know that. What''s your favorite genre?"'
+  ScenarioPromptText: How do you respond?
+  ScenarioVisualSprite: {fileID: 21300000, guid: 6a4b724cff6d9fa4a80d811b86ee0458, type: 3}
+  Options:
+  - OptionText: A. I like open world RPGs.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. I don't really think about games in terms of genres.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. I am a mobile gamer.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. All of them! RTS, FPS, MMORPG, Rougelike, dating sims, and racers
+      to name a few.
+    ResultScenario: {fileID: 11400000, guid: 27ba1f386b9ffd14f99736c9ee054f61, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

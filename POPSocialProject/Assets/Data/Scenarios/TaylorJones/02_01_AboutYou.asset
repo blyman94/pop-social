@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 02_01_AboutYou
+  m_EditorClassIdentifier: 
+  ScenarioText: 'She listens carefully to your introduction, but remains expressionless.
+    Clearly, she has attended <i>a lot</i> of mixers.
+
+
+    "Great to meet you, what
+    do you do in games?"
+
+'
+  ScenarioPromptText: 'You prepare your pitch:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: e182c8db5f82a18489a892f8d2c47ee5, type: 3}
+  Options:
+  - OptionText: A. I am a programmer.
+    ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
+    ChangeImage: 0
+  - OptionText: B. I am a designer.
+    ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
+    ChangeImage: 0
+  - OptionText: C. I am an artist.
+    ResultScenario: {fileID: 11400000, guid: 773859066ec416c4796a2cd9cd239550, type: 2}
+    ChangeImage: 0
+  - OptionText: D. I do everything.
+    ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
+    ChangeImage: 0

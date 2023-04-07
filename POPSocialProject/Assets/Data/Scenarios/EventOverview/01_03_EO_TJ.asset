@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 01_00_EO_Intro
+  m_Name: 01_03_EO_TJ
   m_EditorClassIdentifier: 
-  ScenarioText: 'You enter the event hall and survey the dozens of professionals
-    who could literally make or break your career as a game developer. You reflect
-    on the scale of this event and it''s importance to your future.
-
+  ScenarioText: 'You return to survey the remaining guests. Although there are few,
+    you notice Taylor Jones amongst the stragglers.
 
 '
-  ScenarioPromptText: Where should you start?
+  ScenarioPromptText: What do you do next?
   ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
   Options:
   - OptionText: A. Approach Taylor Jones, the lead programmer on your favorite game,
@@ -26,17 +24,7 @@ MonoBehaviour:
     ResultScenario: {fileID: 11400000, guid: 2f8e747b5cad4ba4f9896350dc8b9f52, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
-  - OptionText: B. Approach Francis Levitt, the hiring manager for the mid-sized
-      Headworlds Entertainment.
-    ResultScenario: {fileID: 0}
-    ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
-  - OptionText: C. Approach Yujing Zhang, a renowned and well-connected designer
-      at Ridgely Softworks.
-    ResultScenario: {fileID: 11400000, guid: 2d5b8b64874cd324b80bbf40a1b29b4d, type: 2}
-    ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
-  - OptionText: D. [Leave the event.]
+  - OptionText: B. [Leave the event.]
     ResultScenario: {fileID: 11400000, guid: eb8a3182170447648a931d5465c40374, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

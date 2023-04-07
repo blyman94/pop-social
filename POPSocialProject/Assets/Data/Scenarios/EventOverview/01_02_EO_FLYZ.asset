@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 01_00_EO_NoTJ
+  m_Name: 01_02_EO_FLYZ
   m_EditorClassIdentifier: 
-  ScenarioText: "You return to your socially distant roost to take a look at the
-    crowd again. <i> There are so many people here. Surely someone wants to hire
-    me</i> you think to yourself. \n\n"
+  ScenarioText: "You return to your vantage point to view the crowd again. <i>There
+    are so many people here. Surely someone wants to hire me</i> you think to yourself.
+    \n\n"
   ScenarioPromptText: What do you do next?
   ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
   Options:
@@ -22,10 +22,13 @@ MonoBehaviour:
       Headworlds Entertainment.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
   - OptionText: B. Approach Yujing Zhang, a renowned and well-connected designer
       at Ridgely Softworks.
-    ResultScenario: {fileID: 0}
+    ResultScenario: {fileID: 11400000, guid: 2d5b8b64874cd324b80bbf40a1b29b4d, type: 2}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
   - OptionText: C. [Leave the event.]
     ResultScenario: {fileID: 11400000, guid: 169a011aafcc8234c8454c26a7ec6c85, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

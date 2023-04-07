@@ -1,3 +1,4 @@
+using Blyman94.CommonSolutions;
 using System;
 using UnityEngine;
 
@@ -26,4 +27,5 @@ public class Option
     /// </summary>
     [Tooltip("Does selecting this option change the image the player sees?")]
     public bool ChangeImage = false;
+    public BoolVariable BoolVariableToUpdate;
 }

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 03_00_Intro
+  m_EditorClassIdentifier: 
+  ScenarioText: 'You sheepishly mozy over to Yujing. She seems to have just finished
+    a conversation, and is visibly flustered. She looks at you. When she speaks,
+    her tone is cutting.
+
+
+    "Look, I don''t want to talk about game development
+    right now. Give me literally any other topic."'
+  ScenarioPromptText: What else is there to talk about?
+  ScenarioVisualSprite: {fileID: 21300000, guid: 06b86526dd963294085ad1a4f491b226, type: 3}
+  Options:
+  - OptionText: A. I play soccer.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+    BoolVariableUpdateValue: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. Have you ever made ice cream?
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+    BoolVariableUpdateValue: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. But... This is a game development mixer...
+    ResultScenario: {fileID: 0}
+    ChangeImage: 0
+    BoolVariableUpdateValue: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. I'm sorry, I have to go.
+    ResultScenario: {fileID: 11400000, guid: 27ba1f386b9ffd14f99736c9ee054f61, type: 2}
+    ChangeImage: 0
+    BoolVariableUpdateValue: 0
+    BoolVariableToUpdate: {fileID: 0}

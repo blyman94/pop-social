@@ -53,6 +53,11 @@ public class OptionButtonBinding : MonoBehaviour
     /// </summary>
     private void AssignNewCurrentScenario()
     {
+        if (BoundOption.BoolVariableToUpdate != null)
+        {
+            BoundOption.BoolVariableToUpdate.Value =
+                true;
+        }
         _currentScenario.Value = BoundOption.ResultScenario;
     }
 

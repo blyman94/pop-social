@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 02_02_Unenthused
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Taylor is unenthused by your answer. Maybe she was looking to meet
+    someone with a different skillset. Still, she plays the part and courtly proceeds.
+
+
+    "It''s
+    really nice to meet you. I hope you are enjoying the event."'
+  ScenarioPromptText: 'You reply:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: e182c8db5f82a18489a892f8d2c47ee5, type: 3}
+  Options:
+  - OptionText: A. Tell me more about yourself
+    ResultScenario: {fileID: 11400000, guid: 738599016993c3e4f9092e9628ddeb17, type: 2}
+    ChangeImage: 0
+  - OptionText: B. Tell me more about your role as lead programmer
+    ResultScenario: {fileID: 11400000, guid: c75676ff18a86fc4cbe4b0e612190e58, type: 2}
+    ChangeImage: 0
+  - OptionText: C. What, you don't want to talk to me?
+    ResultScenario: {fileID: 11400000, guid: 62f8893635b5abc43bbfd3c75fd4c191, type: 2}
+    ChangeImage: 1
+  - OptionText: D. Nice to meet you too! (Take your leave)
+    ResultScenario: {fileID: 11400000, guid: d56e442b4c453024793ad394e4e003a1, type: 2}
+    ChangeImage: 0

@@ -1,3 +1,4 @@
+using Blyman94.CommonSolutions;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -13,6 +14,10 @@ public class ScenarioDisplay : MonoBehaviour
     [Tooltip("Reference to the current scenario. Display will update" +
         "when the value of this reference changes.")]
     [SerializeField] private ScenarioVariable _currentScenario;
+
+    [SerializeField] private BoolVariable _FLVisited;
+    [SerializeField] private BoolVariable _TJVisited;
+    [SerializeField] private BoolVariable _YZVisited;
 
     /// <summary>
     /// Image that displays the scenario visual.
@@ -47,6 +52,15 @@ public class ScenarioDisplay : MonoBehaviour
     [Header("Animator References")]
     [SerializeField] private Animator _scenarioImageRevealerAnimator;
     [SerializeField] private Animator _scenarioTextRevealerAnimator;
+
+    [Header("Scenario References")]
+    [SerializeField] private Scenario _triggerOverviewScenario;
+    [SerializeField] private Scenario _eventOverview_FLTJ;
+    [SerializeField] private Scenario _eventOverview_FL;
+    [SerializeField] private Scenario _eventOverview_FLYZ;
+    [SerializeField] private Scenario _eventOverview_YZ;
+    [SerializeField] private Scenario _eventOverview_TJYZ;
+    [SerializeField] private Scenario _eventOverview_TJ;
 
     /// <summary>
     /// Is the image currently revealed to the player?
@@ -129,6 +143,37 @@ public class ScenarioDisplay : MonoBehaviour
         _isCovering = true;
 
         Scenario currentScenario = _currentScenario.Value;
+
+        if (currentScenario == _triggerOverviewScenario)
+        {
+            bool fl = _FLVisited.Value;
+            bool tj = _TJVisited.Value;
+            bool yz = _YZVisited.Value;
+            if (!fl && !tj && yz)
+            {
+                currentScenario = _eventOverview_FLTJ;
+            }
+            else if (!fl && !yz && tj)
+            {
+                currentScenario = _eventOverview_FLYZ;
+            }
+            else if (!tj && !yz && fl)
+            {
+                currentScenario = _eventOverview_TJYZ;
+            }
+            else if (!fl && tj && yz)
+            {
+                currentScenario = _eventOverview_FL;
+            }
+            else if (!tj && fl && yz)
+            {
+                currentScenario = _eventOverview_TJ;
+            }
+            else if (!yz && fl && tj)
+            {
+                currentScenario = _eventOverview_YZ;
+            }
+        }
 
         if (!_skipTextFade)
         {
