@@ -18,12 +18,12 @@ MonoBehaviour:
   ScenarioPromptText: What do you do next?
   ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
   Options:
-  - OptionText: A. Approach Francis Levitt, a renowned and well-connected designer
-      at Ridgely Softworks.
+  - OptionText: A. Approach Francis Levitt, the hiring manager for the mid-sized
+      Headworlds Entertainment.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
-  - OptionText: B. Approach Yujing Zhang, the hiring manager for the mid-sized Headworlds
-      Entertainment.
+  - OptionText: B. Approach Yujing Zhang, a renowned and well-connected designer
+      at Ridgely Softworks.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
   - OptionText: C. [Leave the event.]

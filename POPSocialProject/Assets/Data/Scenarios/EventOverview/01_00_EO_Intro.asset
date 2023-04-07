@@ -25,12 +25,12 @@ MonoBehaviour:
       <i>Alfheim.</i>
     ResultScenario: {fileID: 11400000, guid: 2f8e747b5cad4ba4f9896350dc8b9f52, type: 2}
     ChangeImage: 1
-  - OptionText: B. Approach Francis Levitt, a renowned and well-connected designer
-      at Ridgely Softworks.
+  - OptionText: B. Approach Francis Levitt, the hiring manager for the mid-sized
+      Headworlds Entertainment.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
-  - OptionText: C. Approach Yujing Zhang, the hiring manager for the mid-sized Headworlds
-      Entertainment.
+  - OptionText: C. Approach Yujing Zhang, a renowned and well-connected designer
+      at Ridgely Softworks.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
   - OptionText: D. [Leave the event.]

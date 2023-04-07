@@ -587,7 +587,6 @@ GameObject:
   - component: {fileID: 396129600}
   - component: {fileID: 396129603}
   - component: {fileID: 396129602}
-  - component: {fileID: 396129604}
   - component: {fileID: 396129601}
   m_Layer: 5
   m_Name: ScenarioText
@@ -731,20 +730,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396129599}
   m_CullTransparentMesh: 1
---- !u!114 &396129604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396129599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f136ab70219a6f446bd32a8c645a2e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shownInteractable: 0
-  _shownBlocksRaycasts: 0
 --- !u!1 &404984156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1546,6 @@ GameObject:
   - component: {fileID: 609242002}
   - component: {fileID: 609242004}
   - component: {fileID: 609242003}
-  - component: {fileID: 609242005}
   - component: {fileID: 609242006}
   m_Layer: 5
   m_Name: ScenarioPromptText
@@ -1610,20 +1594,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609242001}
   m_CullTransparentMesh: 1
---- !u!114 &609242005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609242001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f136ab70219a6f446bd32a8c645a2e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shownInteractable: 0
-  _shownBlocksRaycasts: 0
 --- !u!114 &609242006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,7 +1814,6 @@ GameObject:
   m_Component:
   - component: {fileID: 611673025}
   - component: {fileID: 611673028}
-  - component: {fileID: 611673029}
   - component: {fileID: 611673027}
   - component: {fileID: 611673026}
   m_Layer: 5
@@ -1924,20 +1893,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611673024}
   m_CullTransparentMesh: 1
---- !u!114 &611673029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611673024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f136ab70219a6f446bd32a8c645a2e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shownInteractable: 0
-  _shownBlocksRaycasts: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,7 +2224,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 806233916}
-  - component: {fileID: 806233919}
   - component: {fileID: 806233918}
   - component: {fileID: 806233917}
   m_Layer: 5
@@ -2341,20 +2295,6 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
---- !u!114 &806233919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806233915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f136ab70219a6f446bd32a8c645a2e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shownInteractable: 1
-  _shownBlocksRaycasts: 1
 --- !u!1 &815458060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,7 +2774,6 @@ GameObject:
   - component: {fileID: 952851635}
   - component: {fileID: 952851639}
   - component: {fileID: 952851636}
-  - component: {fileID: 952851637}
   - component: {fileID: 952851638}
   m_Layer: 5
   m_Name: ScenarioTextParent
@@ -2875,24 +2814,10 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952851634}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &952851637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952851634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f136ab70219a6f446bd32a8c645a2e38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shownInteractable: 1
-  _shownBlocksRaycasts: 1
 --- !u!95 &952851638
 Animator:
   serializedVersion: 5
