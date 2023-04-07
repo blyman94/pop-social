@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 00_00_EO_First
+  m_Name: 01_00_EO_Intro
   m_EditorClassIdentifier: 
   ScenarioText: 'You enter the event hall and survey the dozens of professionals
     who could literally make or break your career as a game developer. You reflect
     on the scale of this event and it''s importance to your future.
 
 
-    Where should
-    you start?'
-  ScenarioImage: {fileID: 0}
+'
+  ScenarioPromptText: Where should you start?
+  ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
   Options:
-  - OptionText: Approach Taylor Jones, the lead programmer on your favorite game,
+  - OptionText: A. Approach Taylor Jones, the lead programmer on your favorite game,
       <i>Alfheim.</i>
     ResultScenario: {fileID: 11400000, guid: 2f8e747b5cad4ba4f9896350dc8b9f52, type: 2}
     ChangeImage: 1
-  - OptionText: Approach Francis Levitt, a renowned and well-connected designer at
-      Ridgely Softworks.
+  - OptionText: B. Approach Francis Levitt, a renowned and well-connected designer
+      at Ridgely Softworks.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
-  - OptionText: Approach Yujing Zhang, the hiring manager for the mid-sized Headworlds
+  - OptionText: C. Approach Yujing Zhang, the hiring manager for the mid-sized Headworlds
       Entertainment.
     ResultScenario: {fileID: 0}
     ChangeImage: 1
-  - OptionText: '[Leave the event.]'
-    ResultScenario: {fileID: 0}
-    ChangeImage: 1
+  - OptionText: D. [Leave the event.]
+    ResultScenario: {fileID: 11400000, guid: eb8a3182170447648a931d5465c40374, type: 2}
+    ChangeImage: 0

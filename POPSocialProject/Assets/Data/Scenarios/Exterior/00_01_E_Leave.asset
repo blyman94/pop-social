@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 00_01_EO_LeaveNoConversations
+  m_Name: 00_01_E_Leave
   m_EditorClassIdentifier: 
-  ScenarioText: This event has massive implications for your career, and you haven't
-    talked to anyone yet. Are you sure you want to leave?
-  ScenarioImage: {fileID: 0}
+  ScenarioText: 'This event has massive implications for your career, and you haven''t
+    gone in yet. '
+  ScenarioPromptText: Are you sure you want to leave?
+  ScenarioVisualSprite: {fileID: 0}
   Options:
-  - OptionText: (Leave the event.)
+  - OptionText: A. (Leave the event.)
     ResultScenario: {fileID: 0}
     ChangeImage: 1
-  - OptionText: No. I can do this. (Return to the overview)
-    ResultScenario: {fileID: 0}
-    ChangeImage: 1
+  - OptionText: B. No. I can do this. (Return to the overview)
+    ResultScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
+    ChangeImage: 0

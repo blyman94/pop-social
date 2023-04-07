@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 01_00_EO_NoTJ
+  m_EditorClassIdentifier: 
+  ScenarioText: "You return to your socially distant roost to take a look at the
+    crowd again. <i> There are so many people here. Surely someone wants to hire
+    me</i> you think to yourself. \n\n"
+  ScenarioPromptText: What do you do next?
+  ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
+  Options:
+  - OptionText: A. Approach Francis Levitt, a renowned and well-connected designer
+      at Ridgely Softworks.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 1
+  - OptionText: B. Approach Yujing Zhang, the hiring manager for the mid-sized Headworlds
+      Entertainment.
+    ResultScenario: {fileID: 0}
+    ChangeImage: 1
+  - OptionText: C. [Leave the event.]
+    ResultScenario: {fileID: 11400000, guid: 169a011aafcc8234c8454c26a7ec6c85, type: 2}
+    ChangeImage: 0

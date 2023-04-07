@@ -16,10 +16,17 @@ public class Scenario : ScriptableObject
     public string ScenarioText;
 
     /// <summary>
+    /// A string that asks the player their next move.
+    /// </summary>
+    [TextArea(2,2)]
+    [Tooltip("A string that asks the player their next move.")]
+    public string ScenarioPromptText = "What do you do next?";
+
+    /// <summary>
     /// The visual associated with this scenario.
     /// </summary>
     [Tooltip("The visual associated with this scenario.")]
-    public Sprite ScenarioImage;
+    public Sprite ScenarioVisualSprite;
 
     /// <summary>
     /// Options to be displayed to the player in this scenario. There should be

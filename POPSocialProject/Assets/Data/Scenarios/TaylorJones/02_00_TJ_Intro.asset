@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 01_00_TJ_Intro
+  m_Name: 02_00_TJ_Intro
   m_EditorClassIdentifier: 
   ScenarioText: 'You approach one of solitary attendees who is holding a glass of
     red wine. She greets you immediately but unenthusiastically.
@@ -21,15 +21,16 @@ MonoBehaviour:
     call me Tay."
 
 
-    You can introduce yourself:'
-  ScenarioImage: {fileID: 0}
+'
+  ScenarioPromptText: 'You can introduce yourself:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: e182c8db5f82a18489a892f8d2c47ee5, type: 3}
   Options:
-  - OptionText: Nice to meet you, Taylor. (Introduce yourself)
+  - OptionText: A. Nice to meet you, Taylor. (Introduce yourself)
     ResultScenario: {fileID: 0}
     ChangeImage: 0
-  - OptionText: Nice to meet you, Tay. (Introduce yourself)
+  - OptionText: B. Nice to meet you, Tay. (Introduce yourself)
     ResultScenario: {fileID: 0}
     ChangeImage: 0
-  - OptionText: I am sorry, I have to go.
-    ResultScenario: {fileID: 0}
+  - OptionText: C. I am sorry, I have to go.
+    ResultScenario: {fileID: 11400000, guid: 62f8893635b5abc43bbfd3c75fd4c191, type: 2}
     ChangeImage: 1
