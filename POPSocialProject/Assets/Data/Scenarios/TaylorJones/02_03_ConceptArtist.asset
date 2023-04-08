@@ -24,12 +24,16 @@ MonoBehaviour:
   - OptionText: A. A couple of years teaching myself, and two years in university.
     ResultScenario: {fileID: 11400000, guid: 7de845018db6c4b46ae5725826c3c5e5, type: 2}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 11400000, guid: d9caf70a8ba52464da06275d2965b253, type: 2}
   - OptionText: B. Two years
     ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. Four years.
     ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. I am not really sure...
     ResultScenario: {fileID: 11400000, guid: ad29d9f4118f3734cb2370d8b838e56f, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

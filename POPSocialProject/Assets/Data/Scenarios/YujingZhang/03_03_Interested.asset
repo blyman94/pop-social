@@ -23,15 +23,15 @@ MonoBehaviour:
   - OptionText: A. I have made lots of games that I can't classify.
     ResultScenario: {fileID: 11400000, guid: 5c3ee1962b1272149ac50ad703684935, type: 2}
     ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 0}
+    BoolVariableToUpdate: {fileID: 11400000, guid: ac753e86edbf8a444948485ad9faef2a, type: 2}
   - OptionText: B. Genres are harmful ways of thinking about games.
     ResultScenario: {fileID: 11400000, guid: adefe3acda3262942ad368343ac0de15, type: 2}
     ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 0}
+    BoolVariableToUpdate: {fileID: 11400000, guid: ac753e86edbf8a444948485ad9faef2a, type: 2}
   - OptionText: C. I learned it from one of my design professors.
     ResultScenario: {fileID: 11400000, guid: 272c3898859e07745855a2ffe8e1af1e, type: 2}
     ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 0}
+    BoolVariableToUpdate: {fileID: 11400000, guid: ac753e86edbf8a444948485ad9faef2a, type: 2}
   - OptionText: D. I read it in your article.
     ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
     ChangeImage: 0

@@ -19,6 +19,9 @@ public class ScenarioDisplay : MonoBehaviour
     [SerializeField] private BoolVariable _TJVisited;
     [SerializeField] private BoolVariable _YZVisited;
     [SerializeField] private BoolVariable _issueHeard;
+    [SerializeField] private BoolVariable _TJWin;
+    [SerializeField] private BoolVariable _FLWin;
+    [SerializeField] private BoolVariable _YZWin;
 
     /// <summary>
     /// Image that displays the scenario visual.
@@ -56,6 +59,9 @@ public class ScenarioDisplay : MonoBehaviour
 
     [Header("Scenario References")]
     [SerializeField] private Scenario _triggerOverviewScenario;
+    [SerializeField] private Scenario _triggerTJEndScenario;
+    [SerializeField] private Scenario _triggerFLEndScenario;
+    [SerializeField] private Scenario _triggerYZEndScenario;
     [SerializeField] private Scenario _eventOverview_FLTJ;
     [SerializeField] private Scenario _eventOverview_FL;
     [SerializeField] private Scenario _eventOverview_FLYZ;
@@ -66,6 +72,12 @@ public class ScenarioDisplay : MonoBehaviour
     [SerializeField] private Scenario _triggerWinScreenScenarioYZ;
     [SerializeField] private Scenario _winIssueScenario;
     [SerializeField] private Scenario _winGeneralScenario;
+    [SerializeField] private Scenario _tjWinScenario;
+    [SerializeField] private Scenario _tjLossScenario;
+    [SerializeField] private Scenario _flWinScenario;
+    [SerializeField] private Scenario _flLossScenario;
+    [SerializeField] private Scenario _yzWinScenario;
+    [SerializeField] private Scenario _yzLossScenario;
 
     /// <summary>
     /// Is the image currently revealed to the player?
@@ -193,6 +205,42 @@ public class ScenarioDisplay : MonoBehaviour
             else
             {
                 currentScenario = _winGeneralScenario;
+            }
+        }
+
+        if (currentScenario == _triggerTJEndScenario)
+        {
+            if (_TJWin.Value)
+            {
+                currentScenario = _tjWinScenario;
+            }
+            else
+            {
+                currentScenario = _tjLossScenario;
+            }
+        }
+
+        if (currentScenario == _triggerYZEndScenario)
+        {
+            if (_YZWin.Value)
+            {
+                currentScenario = _yzWinScenario;
+            }
+            else
+            {
+                currentScenario = _yzLossScenario;
+            }
+        }
+
+        if (currentScenario == _triggerFLEndScenario)
+        {
+            if (_FLWin.Value)
+            {
+                currentScenario = _flWinScenario;
+            }
+            else
+            {
+                currentScenario = _flLossScenario;
             }
         }
 

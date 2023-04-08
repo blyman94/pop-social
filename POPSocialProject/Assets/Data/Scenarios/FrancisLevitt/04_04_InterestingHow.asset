@@ -29,7 +29,7 @@ MonoBehaviour:
   - OptionText: B. Oh I played Scare Carapace! It's mechanics were tight.
     ResultScenario: {fileID: 11400000, guid: da5a75c5ec396354b94754229e350dc0, type: 2}
     ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 0}
+    BoolVariableToUpdate: {fileID: 11400000, guid: 78f71103996d73e46906079efb0f1516, type: 2}
   - OptionText: C. Oh I played Jumble Snake! The art was fantastic.
     ResultScenario: {fileID: 11400000, guid: 588253e77c92bc8488004ae4fb24e369, type: 2}
     ChangeImage: 1

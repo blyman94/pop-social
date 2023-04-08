@@ -1478,6 +1478,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
   - {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
   - {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
+  - {fileID: 11400000, guid: 78f71103996d73e46906079efb0f1516, type: 2}
+  - {fileID: 11400000, guid: d9caf70a8ba52464da06275d2965b253, type: 2}
+  - {fileID: 11400000, guid: ac753e86edbf8a444948485ad9faef2a, type: 2}
 --- !u!4 &575051629
 Transform:
   m_ObjectHideFlags: 0
@@ -3718,6 +3721,9 @@ MonoBehaviour:
   _TJVisited: {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
   _YZVisited: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
   _issueHeard: {fileID: 11400000, guid: 8ef98444161063e4996c1645c58396b9, type: 2}
+  _TJWin: {fileID: 11400000, guid: d9caf70a8ba52464da06275d2965b253, type: 2}
+  _FLWin: {fileID: 11400000, guid: 78f71103996d73e46906079efb0f1516, type: 2}
+  _YZWin: {fileID: 11400000, guid: ac753e86edbf8a444948485ad9faef2a, type: 2}
   _scenarioDisplayImage: {fileID: 475213993}
   _scenarioDisplayText: {fileID: 396129601}
   _scenarioPromptDisplayText: {fileID: 609242006}
@@ -3730,6 +3736,9 @@ MonoBehaviour:
   _scenarioImageRevealerAnimator: {fileID: 1035045346}
   _scenarioTextRevealerAnimator: {fileID: 952851638}
   _triggerOverviewScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
+  _triggerTJEndScenario: {fileID: 11400000, guid: c9c10ea91a157934c99d080fd9e919b7, type: 2}
+  _triggerFLEndScenario: {fileID: 11400000, guid: 6a3c8fc784d943a4cbfe7aedbb5b28e0, type: 2}
+  _triggerYZEndScenario: {fileID: 11400000, guid: db4ab7bf4726dbd4e8ee6d8a80ed9965, type: 2}
   _eventOverview_FLTJ: {fileID: 11400000, guid: 0e48bc27a7c9f3842886879c3e3acfd7, type: 2}
   _eventOverview_FL: {fileID: 11400000, guid: 1d95b3bdbdf91a54288909fdbdcac9d8, type: 2}
   _eventOverview_FLYZ: {fileID: 11400000, guid: 80fdaf1ad975ceb45a9de513d792c11d, type: 2}
@@ -3740,6 +3749,12 @@ MonoBehaviour:
   _triggerWinScreenScenarioYZ: {fileID: 11400000, guid: b6c1631e657407a499ad2b9c1a9aadf5, type: 2}
   _winIssueScenario: {fileID: 11400000, guid: 43651324c402e6648b87706d77541dc1, type: 2}
   _winGeneralScenario: {fileID: 11400000, guid: 9b7b14da417235f4db17f8591dfad9f4, type: 2}
+  _tjWinScenario: {fileID: 11400000, guid: c5f24c528a3e4c64c8e55a090421ecd0, type: 2}
+  _tjLossScenario: {fileID: 11400000, guid: e9760ab8e091b87449979af4dd8d08f9, type: 2}
+  _flWinScenario: {fileID: 11400000, guid: 6eddd9d38dac3444880b6f712f71aadc, type: 2}
+  _flLossScenario: {fileID: 11400000, guid: 7f95e976a8411964facd500c4de729e5, type: 2}
+  _yzWinScenario: {fileID: 11400000, guid: 0935e66b770d2814991202d7749ce959, type: 2}
+  _yzLossScenario: {fileID: 11400000, guid: 1f8a78ca4261cf3409f36413e1b2d6dc, type: 2}
 --- !u!1 &1269521704
 GameObject:
   m_ObjectHideFlags: 0

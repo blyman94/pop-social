@@ -33,6 +33,6 @@ MonoBehaviour:
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 11400000, guid: 8ef98444161063e4996c1645c58396b9, type: 2}
   - OptionText: D. Definitely! (Take your leave)
-    ResultScenario: {fileID: 11400000, guid: d56e442b4c453024793ad394e4e003a1, type: 2}
+    ResultScenario: {fileID: 11400000, guid: ce1b1135d4f408841ac2f3343876ea65, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

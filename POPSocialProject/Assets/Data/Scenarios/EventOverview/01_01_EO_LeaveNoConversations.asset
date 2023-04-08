@@ -18,7 +18,7 @@ MonoBehaviour:
   ScenarioVisualSprite: {fileID: 0}
   Options:
   - OptionText: A. (Leave the event)
-    ResultScenario: {fileID: 0}
+    ResultScenario: {fileID: 11400000, guid: ed5724ec22d0f3f47b845d2729da3868, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. <i>No. I can do this.</i> (Return to the overview)
