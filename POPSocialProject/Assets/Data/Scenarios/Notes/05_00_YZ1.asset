@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 05_00_YZ1
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Your notes read as follows:
+
+
+    "Most recent article on genreless
+    games, 17,000 connections on LinkedIn, favorite game is Banjo-Kazooie."'
+  ScenarioPromptText: Who do you want to learn more about?
+  ScenarioVisualSprite: {fileID: 0}
+  Options:
+  - OptionText: A. Taylor Jones, the lead programmer on your favorite game, <i>Alfheim.</i>
+    ResultScenario: {fileID: 11400000, guid: 63274f853635c6748bfa86f9505c9d72, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. Francis Levitt, the hiring manager for the mid-sized Headworlds
+      Entertainment.
+    ResultScenario: {fileID: 11400000, guid: 2156bb73f3e7dc44db87db1e13358d5d, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. Yujing Zhang, a renowned and well-connected designer at Ridgely
+      Softworks.
+    ResultScenario: {fileID: 11400000}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. (Put away your notes)
+    ResultScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

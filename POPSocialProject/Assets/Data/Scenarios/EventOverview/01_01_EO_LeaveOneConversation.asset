@@ -16,7 +16,7 @@ MonoBehaviour:
   ScenarioPromptText: Are you sure you want to leave?
   ScenarioVisualSprite: {fileID: 0}
   Options:
-  - OptionText: A. (Leave the event.)
+  - OptionText: A. (Leave the event)
     ResultScenario: {fileID: 0}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}

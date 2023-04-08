@@ -18,7 +18,7 @@ MonoBehaviour:
   ScenarioPromptText: What do you do next?
   ScenarioVisualSprite: {fileID: 21300000, guid: 42a512ab87eebb44ab6646bb86268ec6, type: 3}
   Options:
-  - OptionText: A. [Leave the event.]
+  - OptionText: A. (Leave the event)
     ResultScenario: {fileID: 0}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
