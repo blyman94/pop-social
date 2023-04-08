@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 04_05_WinReal
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Francis lets out a hardy laugh.
+
+
+    "You think so? The crow''s
+    AI is a little janky. Anyway, I will take that resume of yours!"'
+  ScenarioPromptText: Well, there are others to talk to.
+  ScenarioVisualSprite: {fileID: 21300000, guid: 49200590ea1a85044ab6ee6b37ddf65c, type: 3}
+  Options:
+  - OptionText: A. Tell me about yourself.
+    ResultScenario: {fileID: 11400000, guid: a3a5db9e2c36afd4eb8052ae320f2d38, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. Tell me about your role as a hiring manager.
+    ResultScenario: {fileID: 11400000, guid: 41962cd7ce5992b4fac6fcdb5678924a, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. I should get going. (Take your leave)
+    ResultScenario: {fileID: 11400000, guid: cb417eabf9682de499ff93c6a4dab0cf, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

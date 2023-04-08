@@ -21,11 +21,11 @@ MonoBehaviour:
   ScenarioPromptText: How do you reply?
   ScenarioVisualSprite: {fileID: 21300000, guid: 06b86526dd963294085ad1a4f491b226, type: 3}
   Options:
-  - OptionText: A. I... Don't play soccer...
-    ResultScenario: {fileID: 0}
+  - OptionText: A. Spectator!
+    ResultScenario: {fileID: 11400000, guid: 3ecdd7976bf9093429238eb1f0de3b80, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. I play striker.
-    ResultScenario: {fileID: 0}
+    ResultScenario: {fileID: 11400000, guid: a15d724c98dcf89419146ed2b88e307c, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}

@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 01_01_EO_LeaveOneConversation
   m_EditorClassIdentifier: 
-  ScenarioText: You have spoken to one potential employer. Are you sure you want
-    to leave?
+  ScenarioText: You have spoken to one potential employer.
   ScenarioPromptText: Are you sure you want to leave?
   ScenarioVisualSprite: {fileID: 0}
   Options:
   - OptionText: A. (Leave the event.)
     ResultScenario: {fileID: 0}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. <i>No. I should cast a wider net.</i> (Return to the overview)
-    ResultScenario: {fileID: 11400000, guid: 1328dc8886eddb5408f9794640484e5c, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

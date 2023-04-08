@@ -17,8 +17,9 @@ MonoBehaviour:
     well enough for me to see the world. I recently went to Punjab where I fell in
     love with authentic mango lassi. I can't wait for Japan!\""
   ScenarioPromptText: 'You respond:'
-  ScenarioVisualSprite: {fileID: 0}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 465f28e3aba21f24197b4df6ae0a5f20, type: 3}
   Options:
   - OptionText: A. Lovely!
     ResultScenario: {fileID: 11400000, guid: 7de845018db6c4b46ae5725826c3c5e5, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

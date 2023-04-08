@@ -20,7 +20,7 @@ MonoBehaviour:
   Options:
   - OptionText: A. Approach Francis Levitt, the hiring manager for the mid-sized
       Headworlds Entertainment.
-    ResultScenario: {fileID: 0}
+    ResultScenario: {fileID: 11400000, guid: 4c758312d2ae8d949b468518b11a8ceb, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
   - OptionText: B. Approach Yujing Zhang, a renowned and well-connected designer

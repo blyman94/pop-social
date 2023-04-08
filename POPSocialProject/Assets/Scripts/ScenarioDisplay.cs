@@ -18,6 +18,7 @@ public class ScenarioDisplay : MonoBehaviour
     [SerializeField] private BoolVariable _FLVisited;
     [SerializeField] private BoolVariable _TJVisited;
     [SerializeField] private BoolVariable _YZVisited;
+    [SerializeField] private BoolVariable _issueHeard;
 
     /// <summary>
     /// Image that displays the scenario visual.
@@ -61,6 +62,10 @@ public class ScenarioDisplay : MonoBehaviour
     [SerializeField] private Scenario _eventOverview_YZ;
     [SerializeField] private Scenario _eventOverview_TJYZ;
     [SerializeField] private Scenario _eventOverview_TJ;
+    [SerializeField] private Scenario _eventOverview_Final;
+    [SerializeField] private Scenario _triggerWinScreenScenarioYZ;
+    [SerializeField] private Scenario _winIssueScenario;
+    [SerializeField] private Scenario _winGeneralScenario;
 
     /// <summary>
     /// Is the image currently revealed to the player?
@@ -172,6 +177,22 @@ public class ScenarioDisplay : MonoBehaviour
             else if (!yz && fl && tj)
             {
                 currentScenario = _eventOverview_YZ;
+            }
+            else if (yz && fl && tj)
+            {
+                currentScenario = _eventOverview_Final;
+            }
+        }
+
+        if (currentScenario == _triggerWinScreenScenarioYZ)
+        {
+            if (_issueHeard.Value)
+            {
+                currentScenario = _winIssueScenario;
+            }
+            else
+            {
+                currentScenario = _winGeneralScenario;
             }
         }
 

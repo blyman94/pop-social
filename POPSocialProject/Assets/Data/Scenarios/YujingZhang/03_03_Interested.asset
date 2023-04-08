@@ -12,28 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 03_03_Interested
   m_EditorClassIdentifier: 
-  ScenarioText: 'Yujing contemplates for a moment, then chuckles. <i>Yeah, that''s
-    a popular one</i> you think to yourself. She inquires further.
+  ScenarioText: 'Yujing contemplates for a moment. You smirk. She inquires further.
 
 
-    "No genres,
-    ya? Is that so? And how did you come to this conclusion?"'
+    "No
+    genres, ya? Is that so? And how did you come to this conclusion?"'
   ScenarioPromptText: 'You say:'
   ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
   Options:
   - OptionText: A. I have made lots of games that I can't classify.
     ResultScenario: {fileID: 11400000, guid: 5c3ee1962b1272149ac50ad703684935, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Genres are harmful ways of thinking about games.
     ResultScenario: {fileID: 11400000, guid: adefe3acda3262942ad368343ac0de15, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. I learned it from one of my design professors.
     ResultScenario: {fileID: 11400000, guid: 272c3898859e07745855a2ffe8e1af1e, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
-  - OptionText: D. I don't know, I have kinda always believed it.
+  - OptionText: D. I read it in your article.
     ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
-    ChangeImage: 1
+    ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

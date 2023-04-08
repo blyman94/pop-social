@@ -24,6 +24,6 @@ MonoBehaviour:
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
   - OptionText: B. [Leave the event.]
-    ResultScenario: {fileID: 11400000, guid: 169a011aafcc8234c8454c26a7ec6c85, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 94b2c286aad4e6a47a97f66a3325d4f4, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

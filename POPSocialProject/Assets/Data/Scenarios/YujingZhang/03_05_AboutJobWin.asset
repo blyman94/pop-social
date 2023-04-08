@@ -12,18 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 03_05_AboutJobWin
   m_EditorClassIdentifier: 
-  ScenarioText: 'Yujing enters a wistful state. She begins detailing every aspect
+  ScenarioText: Yujing enters a wistful state. She begins detailing every aspect
     of her career with childlike amazement. Design documents, interdisciplinary communication,
     player experience, emotional engineering, powerful narrative, engaging mechanics,
-    consuming games for inspiration, research, inspiration...
-
-
-    She goes on and
-    on. '
-  ScenarioPromptText: 'You wait fpr a respectful time to cut her off, and say:'
-  ScenarioVisualSprite: {fileID: 0}
+    consuming games for inspiration, research, coding...
+  ScenarioPromptText: 'You wait for a respectful time to cut her off, and say:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: 6a4b724cff6d9fa4a80d811b86ee0458, type: 3}
   Options:
   - OptionText: A. Neat!
-    ResultScenario: {fileID: 11400000, guid: 9b7b14da417235f4db17f8591dfad9f4, type: 2}
+    ResultScenario: {fileID: 11400000, guid: b6c1631e657407a499ad2b9c1a9aadf5, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

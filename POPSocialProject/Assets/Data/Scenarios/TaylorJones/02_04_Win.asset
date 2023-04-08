@@ -24,10 +24,13 @@ MonoBehaviour:
   Options:
   - OptionText: A. Tell me more about your job as a lead programmer.
     ResultScenario: {fileID: 11400000, guid: 538f846329fb20e4485691a60885a500, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Tell me more about yourself.
     ResultScenario: {fileID: 11400000, guid: c761d73a2f51928439911c37afac264e, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. I should get going. (Take your leave)
     ResultScenario: {fileID: 11400000, guid: 8dd771846c6cd324ca9d1b27d7f28006, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

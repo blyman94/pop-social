@@ -22,16 +22,16 @@ MonoBehaviour:
   ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
   Options:
   - OptionText: A. Tell me more about yourself
-    ResultScenario: {fileID: 11400000, guid: 738599016993c3e4f9092e9628ddeb17, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 035ca3c5bd0084d4ead36e4508807c95, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Tell me more about your role as a designer
-    ResultScenario: {fileID: 11400000, guid: c75676ff18a86fc4cbe4b0e612190e58, type: 2}
-    ChangeImage: 0
+    ResultScenario: {fileID: 11400000, guid: 46ab408395c967744a9bc95bdf493c70, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. Why were you so upset earlier?
     ResultScenario: {fileID: 11400000, guid: 52080cb02ee8e9242b5f6b92ee8518b2, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. Definitely! (Take your leave)
     ResultScenario: {fileID: 11400000, guid: d56e442b4c453024793ad394e4e003a1, type: 2}

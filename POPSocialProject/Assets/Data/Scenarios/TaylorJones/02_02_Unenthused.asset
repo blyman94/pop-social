@@ -23,13 +23,17 @@ MonoBehaviour:
   Options:
   - OptionText: A. Tell me more about yourself
     ResultScenario: {fileID: 11400000, guid: 738599016993c3e4f9092e9628ddeb17, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Tell me more about your role as lead programmer
     ResultScenario: {fileID: 11400000, guid: c75676ff18a86fc4cbe4b0e612190e58, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. What, you don't want to talk to me?
     ResultScenario: {fileID: 11400000, guid: 62f8893635b5abc43bbfd3c75fd4c191, type: 2}
     ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. Nice to meet you too! (Take your leave)
     ResultScenario: {fileID: 11400000, guid: d56e442b4c453024793ad394e4e003a1, type: 2}
     ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

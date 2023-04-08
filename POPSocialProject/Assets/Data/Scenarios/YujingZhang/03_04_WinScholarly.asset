@@ -13,28 +13,27 @@ MonoBehaviour:
   m_Name: 03_04_WinScholarly
   m_EditorClassIdentifier: 
   ScenarioText: 'Her smile returns. It is clear that she respects your thought process
-    and conclusion from the look in her eye. Seemingly out of nowhere, she passes
-    you a business card. Her hands are cold.
+    from the look in her eye. She passes you a business card. Her hands are cold.
 
 
-    "A scholar, ya? Understanding
-    your weaknesses and learning from others is vital in this industry. We should
-    chat more!"'
+    "A
+    scholar, ya? Understanding your weaknesses and learning from others is vital
+    in this industry. We should chat more!"'
   ScenarioPromptText: 'You graciously respond:'
-  ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 6a4b724cff6d9fa4a80d811b86ee0458, type: 3}
   Options:
   - OptionText: A. Tell me more about yourself
-    ResultScenario: {fileID: 11400000, guid: 738599016993c3e4f9092e9628ddeb17, type: 2}
-    ChangeImage: 0
+    ResultScenario: {fileID: 11400000, guid: a1619ee06beccde48b978a56732ea227, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Tell me more about your role as a designer
-    ResultScenario: {fileID: 11400000, guid: c75676ff18a86fc4cbe4b0e612190e58, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 12144296ba35ff546bce21df3de3204f, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. Why were you so upset earlier?
-    ResultScenario: {fileID: 11400000, guid: 62f8893635b5abc43bbfd3c75fd4c191, type: 2}
+    ResultScenario: {fileID: 11400000, guid: ee4f18726d2a3744c8012af2623ab0c8, type: 2}
     ChangeImage: 1
-    BoolVariableToUpdate: {fileID: 0}
+    BoolVariableToUpdate: {fileID: 11400000, guid: 8ef98444161063e4996c1645c58396b9, type: 2}
   - OptionText: D. Definitely! (Take your leave)
     ResultScenario: {fileID: 11400000, guid: d56e442b4c453024793ad394e4e003a1, type: 2}
     ChangeImage: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
     know how it is, ya? I don''t really do much outside of design. In my free time
     I try to play games."'
   ScenarioPromptText: 'You say:'
-  ScenarioVisualSprite: {fileID: 0}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
   Options:
   - OptionText: A. Neat!
     ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}

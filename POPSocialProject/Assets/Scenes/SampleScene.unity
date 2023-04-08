@@ -3542,6 +3542,7 @@ MonoBehaviour:
   _FLVisited: {fileID: 11400000, guid: 8984906fba5a96549ac53c667da4cd0c, type: 2}
   _TJVisited: {fileID: 11400000, guid: 29474ad988941a045a75b543d7ce0828, type: 2}
   _YZVisited: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
+  _issueHeard: {fileID: 11400000, guid: 8ef98444161063e4996c1645c58396b9, type: 2}
   _scenarioDisplayImage: {fileID: 475213993}
   _scenarioDisplayText: {fileID: 396129601}
   _scenarioPromptDisplayText: {fileID: 609242006}
@@ -3560,6 +3561,10 @@ MonoBehaviour:
   _eventOverview_YZ: {fileID: 11400000, guid: d7692d746f0a6734ebecac1fa06972a9, type: 2}
   _eventOverview_TJYZ: {fileID: 11400000, guid: c189da515d9550545b806030fc6f30a7, type: 2}
   _eventOverview_TJ: {fileID: 11400000, guid: 3aba7f1d34c88ca4ea7febd6074858cb, type: 2}
+  _eventOverview_Final: {fileID: 11400000, guid: 89a81b042bdaa8f4ca1fe1da1e08d953, type: 2}
+  _triggerWinScreenScenarioYZ: {fileID: 11400000, guid: b6c1631e657407a499ad2b9c1a9aadf5, type: 2}
+  _winIssueScenario: {fileID: 11400000, guid: 43651324c402e6648b87706d77541dc1, type: 2}
+  _winGeneralScenario: {fileID: 11400000, guid: 9b7b14da417235f4db17f8591dfad9f4, type: 2}
 --- !u!1 &1269521704
 GameObject:
   m_ObjectHideFlags: 0

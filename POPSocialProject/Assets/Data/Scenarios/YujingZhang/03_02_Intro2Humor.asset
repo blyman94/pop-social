@@ -22,19 +22,19 @@ MonoBehaviour:
   ScenarioVisualSprite: {fileID: 21300000, guid: 6a4b724cff6d9fa4a80d811b86ee0458, type: 3}
   Options:
   - OptionText: A. I like open world RPGs.
-    ResultScenario: {fileID: 0}
-    ChangeImage: 0
+    ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. I don't really think about games in terms of genres.
-    ResultScenario: {fileID: 0}
+    ResultScenario: {fileID: 11400000, guid: 66c8a67564c7ed742a5646516a968160, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. I am a mobile gamer.
-    ResultScenario: {fileID: 0}
-    ChangeImage: 0
+    ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. All of them! RTS, FPS, MMORPG, Rougelike, dating sims, and racers
       to name a few.
-    ResultScenario: {fileID: 11400000, guid: 27ba1f386b9ffd14f99736c9ee054f61, type: 2}
-    ChangeImage: 0
+    ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}

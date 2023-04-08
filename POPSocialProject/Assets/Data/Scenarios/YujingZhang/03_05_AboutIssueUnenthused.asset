@@ -18,9 +18,9 @@ MonoBehaviour:
     "We don''t need
     to discuss that, ya?"'
   ScenarioPromptText: Well, you tried.
-  ScenarioVisualSprite: {fileID: 0}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 06b86526dd963294085ad1a4f491b226, type: 3}
   Options:
   - OptionText: A. (Change the subject back)
     ResultScenario: {fileID: 11400000, guid: 330fd3a51d0a5e741aee3b2d3d0edbd8, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
