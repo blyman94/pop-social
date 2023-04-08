@@ -28,7 +28,11 @@ MonoBehaviour:
     ResultScenario: {fileID: 11400000, guid: 2d5b8b64874cd324b80bbf40a1b29b4d, type: 2}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 11400000, guid: 855d43ab737cad84c915d3d6b56001ed, type: 2}
-  - OptionText: C. (Leave the event)
+  - OptionText: C. (Check your notes)
+    ResultScenario: {fileID: 11400000, guid: 514f50035603ae642be76e6305c9faa3, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. (Leave the event)
     ResultScenario: {fileID: 11400000, guid: 169a011aafcc8234c8454c26a7ec6c85, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

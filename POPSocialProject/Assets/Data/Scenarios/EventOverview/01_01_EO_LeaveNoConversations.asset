@@ -21,7 +21,7 @@ MonoBehaviour:
     ResultScenario: {fileID: 0}
     ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
-  - OptionText: B. No. I can do this. (Return to the overview)
+  - OptionText: B. <i>No. I can do this.</i> (Return to the overview)
     ResultScenario: {fileID: 11400000, guid: 1328dc8886eddb5408f9794640484e5c, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

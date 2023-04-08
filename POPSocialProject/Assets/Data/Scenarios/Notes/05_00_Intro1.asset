@@ -12,25 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 05_00_Intro1
   m_EditorClassIdentifier: 
-  ScenarioText: You pull out your notebook for a few last-minute reminders.
+  ScenarioText: You pull out your notebook, where you keep a list of people you want
+    to talk to at the mixer. You re-read your notes for a few last-minute reminders.
   ScenarioPromptText: Who do you want to learn more about?
-  ScenarioVisualSprite: {fileID: 0}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 5dd169df27fb41b4bb5e282bdbe8e82d, type: 3}
   Options:
-  - OptionText: A. Taylor Jones, the lead programmer on your favorite game, <i>Alfheim.</i>
+  - OptionText: A. Taylor Jones
     ResultScenario: {fileID: 11400000, guid: 63274f853635c6748bfa86f9505c9d72, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
-  - OptionText: B. Francis Levitt, the hiring manager for the mid-sized Headworlds
-      Entertainment.
+  - OptionText: B. Francis Levitt
     ResultScenario: {fileID: 11400000, guid: 2156bb73f3e7dc44db87db1e13358d5d, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
-  - OptionText: C. Yujing Zhang, a renowned and well-connected designer at Ridgely
-      Softworks.
+  - OptionText: C. Yujing Zhang
     ResultScenario: {fileID: 11400000, guid: a1a8703dc3d91d745b91bc858d0d6ea0, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. (Put away your notes)
     ResultScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}

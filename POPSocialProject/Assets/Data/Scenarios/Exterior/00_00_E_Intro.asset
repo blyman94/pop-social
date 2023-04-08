@@ -27,7 +27,7 @@ MonoBehaviour:
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. (Check your notes)
     ResultScenario: {fileID: 11400000, guid: db85ceb9a4c4920479073dffa567789a, type: 2}
-    ChangeImage: 0
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. (Turn around and leave)
     ResultScenario: {fileID: 11400000, guid: 6e03134c17672b1499ba3fb43a77d9fb, type: 2}
