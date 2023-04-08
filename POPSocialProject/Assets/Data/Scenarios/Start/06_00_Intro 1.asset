@@ -20,7 +20,7 @@ MonoBehaviour:
   ScenarioPromptText: 
   ScenarioVisualSprite: {fileID: 21300000, guid: 3f70cdf7ca1f69e4e9fadee3228471df, type: 3}
   Options:
-  - OptionText: A. Next
+  - OptionText: A. (Next)
     ResultScenario: {fileID: 11400000, guid: 5fa0a120221a60846ae0cee1835cd28b, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}

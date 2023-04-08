@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 06_00_Intro 3
   m_EditorClassIdentifier: 
-  ScenarioText: 'She loves hiking, collecting trading cards, and playing soccer.
-    She considers herself introverted. She has few friends, but they are very close
-    to her. Even in undergrad, she never really liked meeting people at parties or
-    other big events. She mostly kept to herself and focused on her studies. '
+  ScenarioText: You play as Leah. Tonight, she is attending a Game Design mixer put
+    on by her university to bring together industry professionals and students for
+    a networking opportunity. She is apprehensive, but understands how important
+    the night could be to her career. Your goal is to land her a job!
   ScenarioPromptText: 
   ScenarioVisualSprite: {fileID: 21300000, guid: 3f70cdf7ca1f69e4e9fadee3228471df, type: 3}
   Options:
-  - OptionText: A. Next
-    ResultScenario: {fileID: 11400000}
-    ChangeImage: 0
+  - OptionText: A. (Go to the mixer)
+    ResultScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
+    ChangeImage: 1
     BoolVariableToUpdate: {fileID: 0}
