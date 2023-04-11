@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
   m_Name: 00_00_E_Intro
   m_EditorClassIdentifier: 
-  ScenarioText: 'You approach Murkland Hall, where the event is being held. Apprehensive
+  ScenarioText: 'You approach Murkland Hall, where the event is being held. Pensive
     about the career implications this night has, you take a deep breath and decide
     if you are ready for this.
 

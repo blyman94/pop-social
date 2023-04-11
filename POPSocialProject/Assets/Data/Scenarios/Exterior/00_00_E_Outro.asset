@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScenarioText: As you leave Murkland hall, you think about all the people you met
     tonight. You take a moment to savor any opportunities you may have afforded yourself,
-    and a moment to mourne any doors you closed off for good. After a deep breath,
-    you decide it's time to head home.
+    and a moment to mourne any doors you closed off for good. You decide it's time
+    to head home.
   ScenarioPromptText: 
   ScenarioVisualSprite: {fileID: 21300000, guid: 457c522a9c0b8884f984cd5ed9eeedfc, type: 3}
   Options:

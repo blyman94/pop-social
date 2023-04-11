@@ -18,15 +18,15 @@ MonoBehaviour:
   ScenarioVisualSprite: {fileID: 21300000, guid: 5dd169df27fb41b4bb5e282bdbe8e82d, type: 3}
   Options:
   - OptionText: A. Taylor Jones
-    ResultScenario: {fileID: 11400000, guid: 63274f853635c6748bfa86f9505c9d72, type: 2}
+    ResultScenario: {fileID: 11400000, guid: 431e0ecdfbaf8a44fb5101db0be184a1, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: B. Francis Levitt
-    ResultScenario: {fileID: 11400000, guid: 2156bb73f3e7dc44db87db1e13358d5d, type: 2}
+    ResultScenario: {fileID: 11400000, guid: e5c5699842dad884e9edf28e745a44fa, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: C. Yujing Zhang
-    ResultScenario: {fileID: 11400000, guid: a1a8703dc3d91d745b91bc858d0d6ea0, type: 2}
+    ResultScenario: {fileID: 11400000, guid: cb4a9a0a0a07d7a449a212c98488ba6c, type: 2}
     ChangeImage: 0
     BoolVariableToUpdate: {fileID: 0}
   - OptionText: D. (Put away your notes)

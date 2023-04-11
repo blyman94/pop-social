@@ -16,7 +16,7 @@ MonoBehaviour:
 
 
     "Most recent article on genreless
-    games, 17,000 connections on LinkedIn, favorite game is Banjo-Kazooie."'
+    games, 17,000 connections on LinkedIn, hates suck-ups."'
   ScenarioPromptText: Who do you want to learn more about?
   ScenarioVisualSprite: {fileID: 21300000, guid: 5dd169df27fb41b4bb5e282bdbe8e82d, type: 3}
   Options:

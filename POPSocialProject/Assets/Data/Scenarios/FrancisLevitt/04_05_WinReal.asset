@@ -17,7 +17,7 @@ MonoBehaviour:
 
     "You think so? The crow''s
     AI is a little janky. Anyway, I will take that resume of yours!"'
-  ScenarioPromptText: Well, there are others to talk to.
+  ScenarioPromptText: 'You chuckle as well, then say:'
   ScenarioVisualSprite: {fileID: 21300000, guid: 49200590ea1a85044ab6ee6b37ddf65c, type: 3}
   Options:
   - OptionText: A. Tell me about yourself.
