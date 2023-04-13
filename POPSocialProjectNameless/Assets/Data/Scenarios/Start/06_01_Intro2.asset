@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
-  m_Name: 06_00_Intro 3
+  m_Name: 06_01_Intro2
   m_EditorClassIdentifier: 
-  ScenarioText: You play as Leah. Tonight, she is attending a Game Design mixer put
-    on by her university to bring together industry professionals and students for
-    a networking opportunity. She is apprehensive, but understands how important
-    the night could be to her career. Your goal is to land her a job!
+  ScenarioText: Tonight, you are attending a Game Design mixer put on by your university
+    to bring together industry professionals and students for a networking opportunity.
+    Your goal is to land a job!
   ScenarioPromptText: 
-  ScenarioVisualSprite: {fileID: 21300000, guid: 3f70cdf7ca1f69e4e9fadee3228471df, type: 3}
+  ScenarioVisualSprite: {fileID: 21300000, guid: 947cdfd6645598c4892c264869041283, type: 3}
   Options:
   - OptionText: A. (Go to the mixer)
     ResultScenario: {fileID: 11400000, guid: 19c2e36c876e51e43a334008ab714491, type: 2}
