@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 03_05_AboutIssueWin
+  m_EditorClassIdentifier: 
+  ScenarioText: 'She gives a look that lies somewhere between joyful and frustrated.
+
+
+    "I
+    pitched a design to my boss last Thursday, ya? It was a passion project, I put
+    everything I had into it. I detailed it meticulously, conducted focus group testing,
+    even devised a marketing plan. In my free time! And all of my research and production
+    suggested it was going to be profitable."'
+  ScenarioPromptText: 
+  ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
+  Options:
+  - OptionText: A. (Let her continue)
+    ResultScenario: {fileID: 11400000, guid: 4ecbde249d0a93f4f9bb53d332f61a3d, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

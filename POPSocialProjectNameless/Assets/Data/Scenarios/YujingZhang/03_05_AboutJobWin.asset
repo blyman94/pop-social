@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 03_05_AboutJobWin
+  m_EditorClassIdentifier: 
+  ScenarioText: Yujing enters a wistful state. She begins detailing every aspect
+    of her career with childlike amazement. Design documents, interdisciplinary communication,
+    player experience, emotional engineering, powerful narrative, engaging mechanics,
+    consuming games for inspiration, research, coding...
+  ScenarioPromptText: 'You wait for a respectful time to cut her off, and say:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: 6a4b724cff6d9fa4a80d811b86ee0458, type: 3}
+  Options:
+  - OptionText: A. Neat!
+    ResultScenario: {fileID: 11400000, guid: b6c1631e657407a499ad2b9c1a9aadf5, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

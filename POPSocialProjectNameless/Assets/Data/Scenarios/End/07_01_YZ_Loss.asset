@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 07_01_YZ_Loss
+  m_EditorClassIdentifier: 
+  ScenarioText: 'You never did find out what was bothering Yujing Zhang that night.
+    But whatever it was, it may have overshadowed whatever kind of interaction you
+    had with her. Come to think of it, you don''t even remember if you talked to
+    her or not. She never reached out, and you didn''t feel comfortable following
+    up yourself. '
+  ScenarioPromptText: 
+  ScenarioVisualSprite: {fileID: 21300000, guid: 0de69cc6fc561a541aa375aac7e13370, type: 3}
+  Options:
+  - OptionText: A. Oh well. (Next)
+    ResultScenario: {fileID: 11400000, guid: 4012b6433ddb72b4e9d9b48f9995e8e4, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 04_00_Intro
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Francis sits at a mid-sized table on the far side of the room. He
+    has several <i>cirrcula vitae</i> next to his left hand. He looks at you with
+    a friendly expression.
+
+
+    "Hi there! Headworlds is hiring programmers. Are
+    you a programmer?"'
+  ScenarioPromptText: 'You think for a second, then reply:'
+  ScenarioVisualSprite: {fileID: 21300000, guid: 49200590ea1a85044ab6ee6b37ddf65c, type: 3}
+  Options:
+  - OptionText: A. I am a programmer.
+    ResultScenario: {fileID: 11400000, guid: 588253e77c92bc8488004ae4fb24e369, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. I can program.
+    ResultScenario: {fileID: 11400000, guid: 588253e77c92bc8488004ae4fb24e369, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. No, I am not a programmer.
+    ResultScenario: {fileID: 11400000, guid: ebb1ba6c5d5b0334db1b50074012d5c9, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. I am sorry, I have to go.
+    ResultScenario: {fileID: 11400000, guid: ebb1ba6c5d5b0334db1b50074012d5c9, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}

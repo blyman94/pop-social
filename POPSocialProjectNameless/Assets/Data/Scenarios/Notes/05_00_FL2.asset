@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 05_00_FL2
+  m_EditorClassIdentifier: 
+  ScenarioText: 'Your notes read as follows:
+
+
+    "Graduated from RIT, scare carapace,
+    recently moved to this area."'
+  ScenarioPromptText: Who do you want to learn more about?
+  ScenarioVisualSprite: {fileID: 21300000, guid: 5dd169df27fb41b4bb5e282bdbe8e82d, type: 3}
+  Options:
+  - OptionText: A. Taylor Jones
+    ResultScenario: {fileID: 11400000, guid: 431e0ecdfbaf8a44fb5101db0be184a1, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: B. Francis Levitt
+    ResultScenario: {fileID: 11400000}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: C. Yujing Zhang
+    ResultScenario: {fileID: 11400000, guid: cb4a9a0a0a07d7a449a212c98488ba6c, type: 2}
+    ChangeImage: 0
+    BoolVariableToUpdate: {fileID: 0}
+  - OptionText: D. (Put away your notes)
+    ResultScenario: {fileID: 11400000, guid: 060da2c682aac054da0e39b521443fca, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 07_00_Outro
+  m_EditorClassIdentifier: 
+  ScenarioText: Thank you so much for playing!
+  ScenarioPromptText: 
+  ScenarioVisualSprite: {fileID: 21300000, guid: 418bd656c9b17a8458dc08bd7f3c6fea, type: 3}
+  Options:
+  - OptionText: A. (Restart)
+    ResultScenario: {fileID: 11400000, guid: 8c1e319c332296049910e59fc5c1b9e5, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}

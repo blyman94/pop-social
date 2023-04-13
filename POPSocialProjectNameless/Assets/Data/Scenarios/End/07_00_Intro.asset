@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fdc62dcd48c87468023e0c0733dc4c, type: 3}
+  m_Name: 07_00_Intro
+  m_EditorClassIdentifier: 
+  ScenarioText: A few weeks have passed, and you may have heard back from some of
+    the people you met at the mixer.
+  ScenarioPromptText: 
+  ScenarioVisualSprite: {fileID: 21300000, guid: 3f70cdf7ca1f69e4e9fadee3228471df, type: 3}
+  Options:
+  - OptionText: A. (Next)
+    ResultScenario: {fileID: 11400000, guid: c9c10ea91a157934c99d080fd9e919b7, type: 2}
+    ChangeImage: 1
+    BoolVariableToUpdate: {fileID: 0}
